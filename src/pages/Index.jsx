@@ -6,12 +6,16 @@ const Index = () => {
   return (
     <Box>
       {/* Navigation */}
-      <Box as="nav" bg="black" py={4}>
+      <Box as="nav" bg="black" py={8}>
         <Container maxW="container.lg">
-          <Flex align="center" justify="space-between">
-            <Heading as="h1" color="white" size="lg">
-              YourBrand
-            </Heading>
+          <Flex align="center" justify="center" mb={4}>
+            <Box as="div" width="100px" height="100px" backgroundColor="white" borderRadius="50%" display="flex" alignItems="center" justifyContent="center" animation="spin 2s linear infinite">
+              <Heading as="h1" color="black" size="lg">
+                YourBrand
+              </Heading>
+            </Box>
+          </Flex>
+          <Flex align="center" justify="center">
             <Flex align="center">
               <Button variant="ghost" color="white" mr={4}>
                 Shop
@@ -28,8 +32,22 @@ const Index = () => {
         </Container>
       </Box>
 
-      {/* Hero Section */}
-      <Box bg="gray.100" py={20}>
+      {}
+      <Box bg="red.500" py={4}>
+        <Container maxW="container.lg">
+          <Heading as="h2" size="xl" color="white" textAlign="center">
+            Summer Sale! Up to 50% Off!
+          </Heading>
+        </Container>
+      </Box>
+
+      {}
+      <Box bg="gray.100" py={20} position="relative">
+        <Box position="absolute" top={4} right={4} bg="green.500" color="white" px={4} py={2} borderRadius="md">
+          <Text fontSize="lg" fontWeight="bold">
+            New Arrivals
+          </Text>
+        </Box>
         <Container maxW="container.lg">
           <Grid templateColumns="repeat(2, 1fr)" gap={8} alignItems="center">
             <GridItem>

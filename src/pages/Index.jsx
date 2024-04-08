@@ -33,9 +33,9 @@ const Index = () => {
       </Box>
 
       {}
-      <Box bg="yellow.400" py={2} position="relative" zIndex={1}>
+      <Box bg="blue.500" py={2} position="relative" zIndex={1}>
         <Container maxW="container.lg">
-          <Heading as="h2" size="xl" color="black" textAlign="center" fontFamily="cursive">
+          <Heading as="h2" size="xl" color="white" textAlign="center" fontFamily="Times New Roman">
             Free shipping for orders over $50
           </Heading>
         </Container>

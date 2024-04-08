@@ -9,8 +9,8 @@ const Index = () => {
       <Box as="nav" bg="black" py={8}>
         <Container maxW="container.lg">
           <Flex align="center" justify="center" mb={4}>
-            <Box as="div" width="100px" height="100px" backgroundColor="white" borderRadius="50%" display="flex" alignItems="center" justifyContent="center" animation="spin 2s linear infinite">
-              <Heading as="h1" color="black" size="lg">
+            <Box as="div" width="120px" height="120px" backgroundColor="white" borderRadius="50%" display="flex" alignItems="center" justifyContent="center" boxShadow="0 0 10px rgba(255, 255, 255, 0.8)" animation="pulse 2s ease-in-out infinite">
+              <Heading as="h1" color="black" size="xl" textShadow="2px 2px 4px rgba(0, 0, 0, 0.3)">
                 YourBrand
               </Heading>
             </Box>

@@ -33,7 +33,7 @@ const Index = () => {
       </Box>
 
       {}
-      <Box bg="yellow.400" py={2} mb={-8} transform="rotate(-2deg)" zIndex={1}>
+      <Box bg="yellow.400" py={4} mb={-12} transform="rotate(-2deg)" zIndex={1} position="relative" overflow="hidden">
         <Container maxW="container.lg">
           <Heading as="h2" size="xl" color="black" textAlign="center" fontFamily="cursive">
             Summer Sale! Up to 50% Off!
@@ -109,17 +109,6 @@ const Index = () => {
               </Box>
             </GridItem>
           </Grid>
-        </Container>
-      </Box>
-
-      {/* 3D Model Section */}
-      <Box bg="gray.100" py={20}>
-        <Container maxW="container.lg">
-          <Heading as="h2" size="xl" mb={8} textAlign="center">
-            Experience Our Collection in 3D
-          </Heading>
-          {/* Add your 3D model component or library here */}
-          <Box height="400px" bg="white" borderRadius="md" shadow="md" />
         </Container>
       </Box>
 

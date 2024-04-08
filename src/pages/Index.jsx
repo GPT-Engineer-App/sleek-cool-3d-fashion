@@ -33,7 +33,7 @@ const Index = () => {
       </Box>
 
       {}
-      <Box bg="yellow.400" py={4} mb={-12} transform="rotate(-2deg)" zIndex={1} position="relative" overflow="hidden">
+      <Box bg="yellow.400" py={4} mb={-12} transform="rotate(-2deg)" zIndex={-1} position="fixed" top={0} left={0} right={0} bottom={0} overflow="hidden">
         <Container maxW="container.lg">
           <Heading as="h2" size="xl" color="black" textAlign="center" fontFamily="cursive">
             Summer Sale! Up to 50% Off!
@@ -42,7 +42,7 @@ const Index = () => {
       </Box>
 
       {}
-      <Box bg="gray.100" py={20} position="relative">
+      <Box bg="gray.100" py={20} position="relative" pt={40}>
         <Box position="absolute" top={4} right={4} bg="green.500" color="white" px={4} py={2} borderRadius="md">
           <Text fontSize="lg" fontWeight="bold">
             New Arrivals

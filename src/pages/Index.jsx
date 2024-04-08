@@ -33,9 +33,9 @@ const Index = () => {
       </Box>
 
       {}
-      <Box bg="red.500" py={4}>
+      <Box bg="yellow.400" py={2} mb={-8} transform="rotate(-2deg)" zIndex={1}>
         <Container maxW="container.lg">
-          <Heading as="h2" size="xl" color="white" textAlign="center">
+          <Heading as="h2" size="xl" color="black" textAlign="center" fontFamily="cursive">
             Summer Sale! Up to 50% Off!
           </Heading>
         </Container>

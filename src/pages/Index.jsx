@@ -82,7 +82,10 @@ const Index = () => {
                   <Heading as="h3" size="md" mb={2}>
                     Stylish Shirt
                   </Heading>
-                  <Text>$49.99</Text>
+                  <Text mb={4}>$49.99</Text>
+                  <Button colorScheme="black" size="sm">
+                    View Details
+                  </Button>
                 </Box>
               </Box>
             </GridItem>
@@ -93,7 +96,10 @@ const Index = () => {
                   <Heading as="h3" size="md" mb={2}>
                     Trendy Jeans
                   </Heading>
-                  <Text>$79.99</Text>
+                  <Text mb={4}>$79.99</Text>
+                  <Button colorScheme="black" size="sm">
+                    View Details
+                  </Button>
                 </Box>
               </Box>
             </GridItem>
@@ -104,7 +110,10 @@ const Index = () => {
                   <Heading as="h3" size="md" mb={2}>
                     Cool Jacket
                   </Heading>
-                  <Text>$99.99</Text>
+                  <Text mb={4}>$99.99</Text>
+                  <Button colorScheme="black" size="sm">
+                    View Details
+                  </Button>
                 </Box>
               </Box>
             </GridItem>
@@ -115,7 +124,7 @@ const Index = () => {
       {/* Footer */}
       <Box as="footer" bg="black" py={10} color="white">
         <Container maxW="container.lg">
-          <Flex align="center" justify="space-between">
+          <Flex align="center" justify="space-between" mb={8}>
             <Heading as="h2" size="lg">
               YourBrand
             </Heading>
@@ -125,6 +134,19 @@ const Index = () => {
               <Icon as={FaFacebook} boxSize={6} />
             </Stack>
           </Flex>
+          <Box>
+            <Heading as="h3" size="md" mb={4}>
+              Subscribe to Our Newsletter
+            </Heading>
+            <form>
+              <Flex>
+                <input type="email" placeholder="Enter your email" />
+                <Button colorScheme="white" ml={4}>
+                  Subscribe
+                </Button>
+              </Flex>
+            </form>
+          </Box>
         </Container>
       </Box>
     </Box>
